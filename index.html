@@ -25,6 +25,7 @@
 
 <body>
 <div id="wrap">
+  <div class="box"></div>
   <header id="header">
     <nav id="nav">  
     <h1 class="logo ">
@@ -88,9 +89,7 @@
           <img src="./images/main_slide2.png" data-sizes="100vw" alt="배너2">
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+     
     </div>
 
       <div class="sec1_txt">
@@ -100,8 +99,12 @@
           <h2>당신의 자유를 허용하라</h2>
         </div>
       </div>
-      <div>
-
+      <div class="sec1_txt2">
+        <div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
   </article>
 
@@ -118,16 +121,16 @@
 
     <div class="tabSet">
       <div class="tabs">
-       <div class="list_box">
+       <div class="list_box list1">
           <ul class="list"><!--row-->
-            <li><a href="#panel1-1" class="on">펜스팅 프로</a></li>
-            <li><a href="#panel1-2">펜스팅 아마추어</a></li>
-            <li><a href="#panel1-3">펜스팅 비즈니스</a></li>
+            <li><a href="#panel1-1" class="on">프로</a></li>
+            <li><a href="#panel1-2">아마추어</a></li>
+            <li><a href="#panel1-3">비즈니스</a></li>
           </ul>
           <p>펜스팅 라인업</p>
         </div>
-        <div class="list_box">
-          <ul class="list2"><!--row-->
+        <div class="list_box list2">
+          <ul class="list"><!--row-->
           <li><a href="#panel1-4">함께 나누기</a></li>
           <li><a href="#panel1-5">펜스팅 이벤트</a></li>
         </ul>
@@ -137,6 +140,9 @@
 
       <div class="panels">
         <div class="panel" id="panel1-1">
+            <h2> 최고를 위한 프로의 아트 도구</h2>
+            <h2> 내 꿈을 새기는 프로의 노트</h2>
+            <h2> 영감을 탄생 시키는 프로의 펜</h2>
           <ul>
             <li><a href="#"><img src="./images/line_up.png" alt="프로" class="panel_img"></a></li>
             <li><a href="#"><img src="./images/line_up2.png" alt="프로" class="panel_img"></a></li>
@@ -146,33 +152,33 @@
   
         <div class="panel" id="panel1-2">  
           <ul>
-            <li><a href="#"><img src="./images/line_up.png" alt="프로"></a></li>
-            <li><a href="#"><img src="./images/line_up2.png" alt="프로"></a></li>
-            <li><a href="#"><img src="./images/line_up3.png" alt="프로"></a></li>
+            <li><a href="#"><img src="./images/line_up.png" alt="프로" class="panel_img"></a></li>
+            <li><a href="#"><img src="./images/line_up2.png" alt="프로" class="panel_img"></a></li>
+            <li><a href="#"><img src="./images/line_up3.png" alt="프로" class="panel_img"></a></li>
           </ul>
         </div>
   
         <div class="panel" id="panel1-3">   
           <ul>
-            <li><a href="#"><img src="./images/line_up.png" alt="프로"></a></li>
-            <li> <a href="#"><img src="./images/line_up2.png" alt="프로"></a></li>
-            <li><a href="#"><img src="./images/line_up3.png" alt="프로"></a></li>
+            <li><a href="#"><img src="./images/line_up.png" alt="프로" class="panel_img"></a></li>
+            <li> <a href="#"><img src="./images/line_up2.png" alt="프로" class="panel_img"></a></li>
+            <li><a href="#"><img src="./images/line_up3.png" alt="프로" class="panel_img"></a></li>
           </ul>
         </div>
   
         <div class="panel" id="panel1-4">   
           <ul>
-            <li><a href="#"><img src="./images/line_up.png" alt="프로"></a></li>
-            <li> <a href="#"><img src="./images/line_up2.png" alt="프로"></a></li>
-            <li><a href="#"><img src="./images/line_up3.png" alt="프로"></a></li>
+            <li><a href="#"><img src="./images/line_up.png" alt="프로" class="panel_img"></a></li>
+            <li> <a href="#"><img src="./images/line_up2.png" alt="프로" class="panel_img"></a></li>
+            <li><a href="#"><img src="./images/line_up3.png" alt="프로" class="panel_img"></a></li>
           </ul>
         </div>
   
         <div class="panel" id="panel1-5">   
            <ul>
-            <li><a href="#"><img src="./images/line_up.png" alt="프로"></a></li>
-            <li> <a href="#"><img src="./images/line_up2.png" alt="프로"></a></li>
-            <li><a href="#"><img src="./images/line_up3.png" alt="프로"></a></li>
+            <li><a href="#"><img src="./images/line_up.png" alt="프로" class="panel_img"></a></li>
+            <li> <a href="#"><img src="./images/line_up2.png" alt="프로" class="panel_img"></a></li>
+            <li><a href="#"><img src="./images/line_up3.png" alt="프로" class="panel_img"></a></li>
           </ul>
         </div>
      </div>  <!-- /panels -->
@@ -225,8 +231,6 @@
             </li>
           </ul>
     </article>
-    
-
   </section>
 
   <!--section5-->
@@ -271,7 +275,7 @@
           <h2>펜스팅의 기록</h2>
           <p> 도전하는 사람들의 기록 </p>
           <p> 다양한 세상을 접하는 기록</p>
-          <p><a href="#">+더보기</a></P>
+          <a href="#"><p>+더보기</P></a>
         </div>
         <div class="sec6_imgbox center slider">
           <div class="sec6hover">
@@ -376,23 +380,24 @@
         <p>🇰🇷 한국어</p>
       </div>
       <div>
+
+        <h4 class="footer_h4">펜스팅은?</h4>
         <ul class="footer_ul">
-          <li><h4 class="footer_h4">펜스팅은?</h4></li>
           <li><a href="#"><p>브랜드 소개</p></a></li>
           <li><a href="#"><p>채용</p></a></li>
           <li><a href="#"><p>도움말</p></a></li>
         </ul>
       </div>
       <div>
-        <ul>
-          <li><h4 class="footer_h4">펜스팅 기획</h4></li>
+        <h4 class="footer_h4">펜스팅 기획</h4>
+        <ul class="footer_ul">
           <li><a href="#"><p>함께 나누기</p></a></li>
           <li><a href="#"><p>펜스팅 이벤트</p></a></li>
         </ul>
       </div>
       <div>
-        <ul> 
-          <li><h4 class="footer_h4">펜스팅은?</h4></li>
+        <h4 class="footer_h4">펜스팅은?</h4>
+        <ul class="footer_ul"> 
           <li><a href="#"><p>브랜드 소개</p></a></li>
           <li><a href="#"><p>채용</p></a></li>
           <li><a href="#"><p>도움말</p></a></li>
