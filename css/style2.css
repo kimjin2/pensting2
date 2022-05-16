@@ -89,3 +89,7 @@ section{margin: 200px 0;}
     cursor: pointer;
 }
 
+#section1  a:hover > .bt{
+    background-color: #1956F1;
+    color: #ffff;
+}

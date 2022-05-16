@@ -50,18 +50,22 @@ font-family: 'NotoSans_KR';
 }
 
 #section1 .choose{
-    display: flex;
-    width:100%;
+    width:calc(100% - 20px);
     height: 145px;
     flex-direction: row;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 1px solid #cccc;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #cccc;
     box-sizing: border-box;
     align-items: center;
     margin: 0 auto;
 }
 
-
+#section1 .choose > li > span {
+    padding: 1% 1% 1% 0%;
+    width: 100%;
+}
 #section1  .question{
     margin-top: 5% ; 
 }
@@ -71,15 +75,16 @@ font-family: 'NotoSans_KR';
     
 }
 
-#section1 .question > li{ 
+#section1 .choose > li{ 
+    display: block;
     width: 100%;
-    text-align: center;
+   
     margin: 0 auto;
-    padding: 2% 2% 2% 2%;
+    padding: 1% 1% 1% 1%;
 }
 
-#section1 .question > li > h4{
-    text-align: center;
+#section1 .choose > li > h4{
+ 
 }
 
 #section1 .choose > .question > .q2 > h4{
@@ -126,4 +131,16 @@ font-family: 'NotoSans_KR';
 
 #section1 .question .choose > p {
     display: block;
+}
+
+#section1  a:hover > .bt,
+#section1  a:hover > .bt2,
+#section1  a:hover > .bt3
+{
+    background-color: #1956F1;
+    color: #ffff;
+}
+
+.color{
+    color: #1956F1;
 }

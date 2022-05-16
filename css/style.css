@@ -75,7 +75,6 @@ section{margin: 200px 0;}
             }
         #nav .depth1 > li:hover .depth2{
             position: absolute;
-         
         display: block;}                 
 
         #nav .depth2 > li{width:100%; padding:20px 10px;
@@ -155,6 +154,10 @@ section{margin: 200px 0;}
 
         }
 
+        #nav .depth3 > a:hover{
+            color:#1956F1
+        }
+
         #nav .depth1 > .surch_box{
             width: 25%;
             display: inline-block
@@ -172,8 +175,8 @@ section{margin: 200px 0;}
         height: 3%;
           }
 
-        #nav .btn1 > span{
 
+        #nav .btn1 > span{
             position: absolute;
             right: 10%;
             top:25%;
@@ -181,7 +184,6 @@ section{margin: 200px 0;}
              width:3%;
             background-color:#000;transition:0.5s;
             z-index: 9999999999;
-           
         }
 
         #nav .btn1 span:first-child { top:33% }
@@ -207,17 +209,25 @@ section{margin: 200px 0;}
    
         
 /*section1*/
-
+.box{
+    position:fixed;
+    top:0%;left:0;
+    height:100%;
+    width:100%;
+    background:#ffff;
+    z-index:88888888888;
+    display: none
+ }  
         #section1{ margin: 0%;
-
-        }
-
-        #section1 .sec1{
             position: relative;
         }
 
+        #section1 .sec1{
+            
+        }
 
-        #section1 .sec_slide1{width: 100%;}
+
+        #section1 .pc_item{width: 100%;}
 
         #section1 .sec1_txt{
             display: block;
@@ -255,7 +265,16 @@ section{margin: 200px 0;}
             width: 100%;
         }
 
-
+        #section1  .sec1_txt2{
+            display: block;
+            position: absolute;
+            background-color: #ffff;
+            width: 52%;
+            height: 30%;
+            z-index: 33333;
+            top:73%;
+            left: 48%;
+        }
 
 /*section2*/
 
@@ -266,7 +285,7 @@ section{margin: 200px 0;}
 
         #section2 .sec2_title > h2{
             font-family: 'Gmarket';
-            font-weight: 300;
+            font-weight: 500;
             font-style: normal;
             color:#000;
             font-size: 2em;
@@ -281,28 +300,24 @@ section{margin: 200px 0;}
 
         #section2 .tabSet{
             position: relative;
-            display: flex;
-            justify-content: center;
-            width: 100%;
             font-family: 'NotoSans_KR';
             font-weight: 300;
             font-style: normal;
             font-size: 1rem;
             color: #cccc;
             padding-top: 50px;
+            z-index: 888888888888;
         }
 
         #section2 .tabs{
             display: flex;
             flex-direction: row;
             position: absolute;
-            border: #000;
             width: 60%;
             height: 15%;
             flex-wrap: wrap;
-            top: 85%;
+            bottom: 0;
             left: 20%;
-            right: 5%;
             color:#000;
             font-family: 'NotoSans_KR';
             font-style: normal;
@@ -310,11 +325,28 @@ section{margin: 200px 0;}
             background-color:  #5AC1FB;
         }
 
-        #section2 .tabs > ul{
-        display: flex;
-        flex-direction: row;
-        background-color:  #5AC1FB;
-        width: 100%;
+        #section2 .panel > h2{
+            position: absolute;
+            color:#000;
+            display: inline-block;
+        }
+
+        #section2  h2:nth-child(1){
+           
+            top: 50%;
+            left: 5%
+        }
+
+        #section2  h2:nth-child(2){
+        
+            top: 50%;
+            left: 40%
+        }
+
+        #section2  h2:nth-child(3){
+           
+            top: 50%;
+            left: 75%
         }
 
         #section2 .panel > img{
@@ -323,99 +355,50 @@ section{margin: 200px 0;}
 
         #section2 .tabs a.on{
         color:#ffff;
-
+        width: 33.3%;
+        transform: rotateY(-50);
         }
        
-        #section2 .list_box{
-            position: relative;
-            width: calc((100% - 30px)/2);
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            align-items: center;
-            padding-left: 0.5%;
-            margin: 0% auto;
-        }
-        
-        #section2 .list_box > li > p {
-            width: 100%;
-            margin-top: 20px;
-            background-color: #5AC1FB33;
-            
-        }
+    
         #section2 .list{
             position: relative;
-            margin-top: 2%;
-            padding: 5% 5% 5% 5%;
             width: 100%;
-            flex-direction:row ;
-            align-items: center;
-            justify-content: space-between;
             font-family: 'NotoSans_KR';
             font-weight: 500;
-            font-size: 1em;
-            
+            font-size: 1.2em;
+            display: flex;
+            flex-direction:row ;
+            text-align: center;
+            justify-content: center
         }
 
-        #section2 .list > li{
-            display: inline-block;
-            position: absolute;
-            padding: 10px 10px 10px 10px;
+        #section2 .list1{
+            width: 60%;
+            padding-top: 2.6%;
         }
-
-        #section2 .list > li:nth-child(1){
-            left:20%;
-            top:10%
-        }   
-
-        #section2 .list > li:nth-child(2){
-            left:40%;
-            top:10%
-        } 
-
-        #section2 .list > li:nth-child(3){
-            left:65%;
-            top:10%
-        } 
+         #section2 .list1 li{
+        width:33.33%;
+        padding-bottom: 2.5%;
+        }
 
         #section2 .list2{
-            position: relative;
-            margin-top: 2%;
-            padding: 5% 5% 5% 5%;
-            width: 100%;
-            flex-direction:row ;
-            align-items: center;
-            justify-content: space-between;
-            font-family: 'NotoSans_KR';
-            font-weight: 500;
-            font-size: 1em;
+            width: 40%;
+            padding-top: 3%;
         }
 
-        #section2 .list2 > li{
-            display: inline-block;
-            position: absolute;
-            padding: 10px 10px 10px 10px;
+        #section2 .list2 li{
+        width: 50%;
+        padding-bottom: 2.6%;
         }
-       
-        #section2 .list2 > li:nth-child(1){
-            left:30%;
-            top:10%
-        }
-        #section2 .list2 > li:nth-child(2){
-            left:50%;
-            top:10%
-        }
-       
+  
         #section2 .list_box > p{ 
-            width: 50%;
+            width: calc(100% - 10px);
             border-top: 1px solid #CD813B;
             text-align: center;
-            align-content: center;
-            justify-content: center;
-            padding: 5px 5px 5px 5px;
+            font-size: 1.2em;
+            padding-top: 2%;
+            margin: 0 auto;
         }
-
-
 
         #section2 .panels{
             margin:auto;
@@ -446,11 +429,14 @@ section{margin: 200px 0;}
             width: 100%;
         }
         
+        #section2 .second-section{
+            transition: 1s transform, 2s opacity;
+        }
 
     #section2 .second-section.show-animation{
         transform: translate(0, -20%);
-        opacity: 1;
-        transition: 1s transform, 2s opacity;}
+        opacity: 0.9;
+     }
      
 /*section3*/
 
@@ -513,15 +499,18 @@ section{margin: 200px 0;}
         #section3 .sec3_tex > a{
             width: 100%;
         }
+        
         #section3 .sec3_tex > a:hover > .sec_button{
             background-color: #1956F1;
             color: #ffff;
         }
-
+        #section3  .third-section{
+            transition: 1s transform, 2s opacity;
+        }
         #section3  .third-section.show-animation{
             transform: translate(0, -20%) ;
-            opacity: 1;
-            transition: 1s transform, 2s opacity;
+            opacity: 0.8;
+      
         }
 
 /*section4*/
@@ -534,7 +523,7 @@ section{margin: 200px 0;}
         }
         #section4 .sec4_title > h2{
             font-family: 'Gmarket';
-            font-weight: 300;
+            font-weight: 500;
             font-style: normal;
             color:#000;
             font-size: 2em;
@@ -580,10 +569,13 @@ section{margin: 200px 0;}
         color: #000;
         }
 
-        #section4  .fourth-section.show-animation{
-            transform: translate(0, -30%) ;
-            opacity: 1;
+        #section4 .fourth-section{
             transition: 1s transform, 2s opacity;
+        }
+        #section4 .fourth-section.show-animation{
+            transform: translate(0, -30%) ;
+            opacity: 0.8;
+         
         }
 
  /*section5*/
@@ -665,11 +657,14 @@ section{margin: 200px 0;}
 
         }
 
-        
-        #section5.five-section.show-animation{
-            transform: translate(0, -30%) ;
-            opacity: 1;
+        #section5 .five-section{
             transition: 1s transform, 2s opacity;
+        } 
+
+        #section5 .five-section.show-animation{
+            transform: translate(0, -30%) ;
+            opacity: 0.8;
+           
         }
  
 
@@ -677,7 +672,7 @@ section{margin: 200px 0;}
 
         #section6 .sec6_title > h2{
             font-family: 'Gmarket';
-            font-weight: 300;
+            font-weight: 500;
             font-style: normal;
             color:#000;
             font-size: 2em;
@@ -698,6 +693,10 @@ section{margin: 200px 0;}
             font-weight: 400;
         }
 
+        #section6 .sec6_title > a:hover{
+            color:#1956F1;
+            font-weight: 500;
+        }
 
         #section6 .sec6_imgbox{
             display: flex;
@@ -744,10 +743,14 @@ section{margin: 200px 0;}
             padding-left: 15px;
         }
 
-        #section6.six-section.show-animation{
+        #section6.six-section{
+            transition: 1s transform, 1s opacity;
+        }
+
+        #section6 .six-section.show-animation{
             transform: translate(0, -30%) ;
-            opacity: 1;
-            transition: 1s transform, 2s opacity;
+            opacity: 0.8;
+           
         }
  
 
@@ -799,7 +802,7 @@ section{margin: 200px 0;}
             text-align: left;
             font-style: normal;
             background-color: #5AC1FB;
-        
+            flex-wrap: wrap;
             color: #000;
             overflow:hidden
         }
@@ -809,6 +812,7 @@ section{margin: 200px 0;}
             padding: 50px 50px 20px 20px;
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: space-evenly;
         }
 
@@ -1094,13 +1098,13 @@ section{margin: 200px 0;}
     #section2 .tabs {
         width: 70%;
         height: 17%;
-        flex-wrap: wrap;
+     
         top:83%;
         right: 5%;
         color: #000;
-        font-style: normal;
-        font-size: 1em;
-        background-color: #5AC1FB33;
+  
+      
+     
         }
 
  /*1025px section4*/ 
@@ -1216,9 +1220,16 @@ section{margin: 200px 0;}
 @media all and (max-width:769px){
 
  /* 768px header*/
+
             #nav {
                 justify-content: flex-start;
             }
+            
+            #nav .btn1{
+                display: block;
+               
+                  }
+
             #nav .logo {
                 padding:0 0 0 0;
                 margin: 1% 2%;
@@ -1271,7 +1282,7 @@ section{margin: 200px 0;}
                     height:2%;
                      width:5%;
                     background-color:#000;transition:0.5s;
-                    z-index: 9999997;
+                    z-index: 9999997777;
                 }
         
         
@@ -1351,7 +1362,14 @@ section{margin: 200px 0;}
                     padding: 2% 2% 2% 2%;
                 
                 }
+                #section2 .list,
+                #section2 .list2
+                {
+                    margin-top: 0;
+                }
               
+            
+                
 /*768px section2 끝*/
 
  /* 768px section3 */     
@@ -1382,11 +1400,11 @@ section{margin: 200px 0;}
                 }
 
                 #section3 .sec3_tex > h1{
-                    font-size: 1.8em;
+                    font-size: 1.4em;
                 }
                 
                 #section3 .sec3_tex > h2{
-                    font-size: 1.5em;
+                    font-size: 1.2em;
                     margin: 8px 10px
                 }
                 
@@ -1409,11 +1427,11 @@ section{margin: 200px 0;}
 
 
                 #section4 .sec4_title > h2{
-                    font-size: 2.5em;
+                    font-size: 2em;
                 }
 
                 #section4 .sec4_title > p {
-                    font-size: 1.2em;
+                    font-size: 1em;
                 }
 
                 #section4 .icon_box_li > img{
@@ -1455,11 +1473,11 @@ section{margin: 200px 0;}
                 
         
                 #section5 .sec5_title > h2{
-                    font-size: 2.5em;
+                    font-size: 2em;
                 }
 
                 #section5 .sec5_title > p {
-                    font-size: 1.5em;
+                    font-size: 1em;
                 }
 
 
@@ -1513,11 +1531,11 @@ section{margin: 200px 0;}
 
             
                 #section6 .sec6_title > h2{
-                    font-size: 2.5em;
+                    font-size: 2em;
                 }
 
                 #section6 .sec6_title > p {
-                    font-size: 1.2em;
+                    font-size: 1em;
                 }
 
                 #section6 .sec6_imgbox{
@@ -1526,25 +1544,239 @@ section{margin: 200px 0;}
 
                 #section6 .rec_txt h4{
                     padding-left: 20px ;
-                    font-size: 1.2em;
+                    font-size: 1.1em;
                 }
 
                     #section6 .rec_txt p{
                         padding-left: 20px ;
-                        font-size: 1.8em;
+                        font-size: 1.4em;
                     }
 
-                   
 
-                    #nav .btn1{
-                        display: block;
+/* section7*/
+                #section7 .div_img{
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 100%;}
+
+                    #section7 .div_img > a {
+                        width: 100%;
+                        margin: 20px 20px ;
+                    }   
+
+                #section7 .div_img > a > img{width: 60px}
+
+                #section7 .black{
+                                font-weight: 700;
+                                font-size: 2rem;
+                              
+                                color:#000;
+                                line-height: normal;
+                            }
+
+                #section7 .black > h2{
+                    padding-top: 10px;
+                }
+
+                                #section7  .black_p{ 
+                                   
+                                    font-size: 1em ;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    padding: 15px 15px;
+                                    color:#000;
+                                }
+/*footer*/
+
+                          #footer{
+                            width: 100%;
+                            justify-content: space-evenly;
                        
-                          }
+                         
+                        }
+                        #footer .footer_box{
+                            padding: 50px 0px 20px 0px
+                
+                        }
+                        
+                
+                        #footer .footer_box > div > p {
+                            font-size: 0.3em;
+                        }
+                
+                        
+                        #footer .footer_box > div:nth-child(1){
+                            padding-top: 1.5%;
+                        }
+                        
+                        #footer .footer_h4{
+                            font-size: 0.5em;
+                            padding-left: 2%;
+                        }
+                        
+                        #footer .footer_box > div > ul > li > p{
+                            font-size: 0.5em;
+                            padding: 5px 5px 5px 5px;
+                        }
+                        #footer .footerbox > .footer_ul > li:hover a{
+                            color:#ffff;
+                            z-index: 2000000;
+                        }
 
+                        #footer .footer_box .footer_h3{
+                            text-align: center;
+                            font-size: 0.8em;
+                            margin: 2% 2%;
+                            padding-left: 20% ;
+                        }
+                        
+                        #footer .footer_box .footer_p{
+                            width: 100%;
+                            padding-left:5%;
+                            font-size: 0.5em;
+                        }
     }/*미디어쿼리 768px 끝 */
 
- 
+
+    @media all and (max-width:426px){
+        #section1 .sec1_txt {
+            display: block;
+            position: absolute;
+            background-color: #ffff;
+            width: 48%;
+            height: 50%;
+            z-index: 222;
+            top: 0;
+        }
+
+        #section1 .sec1_txt > div {
+            left:20%
+        }
+
+        #section1 .sec1_txt > div >h1 {
+            font-size: 1.5em
+            
+        }
+
+        #section1 .sec1_txt > div >h2 {
+        font-size: 0.5em;
+        }
+/* 426px section2*/
+
+        #section2 .sec2_title{
+            display: block;
+            width: 100%;
+            left:5%;
+            padding: 1% 0% 2% 5.5%;
+            margin: auto;
+        }
+
+
+        #section2 .sec2_title > h2{
+            font-size: 1.5em;
+        }
+
+        #section2 .sec2_title > p {
+            font-size: 0.8em;
+        }
+
+        #section2 .panel_img{
+            width: 100%;
+        }
+        #section2 .tabs {
+            height: 30%;
+        }
+        #section2 .list1,
+        #section2 .list2
+        {margin-top: 0.2%;
+       }
+        #section2 .list2 > li:nth-child(1) {
+            left: 15%;
+            top: 9%;
+        }
 
 
 
+/* 426px section3*/
+   
+        #section3 .sec3_tex{
+            width: 70%;
+            top:30%;
+            left:15%;
+            right: 1%;
+            z-index: 22;
+            }
 
+            #section3 .sec3_tex > h1{
+                font-size: 1.4em;
+            }
+            
+            #section3 .sec3_tex > h2{
+                font-size: 1.2em;
+                margin: 8px 10px
+            }
+            
+            #section3 .sec_button {
+            width: 50%;
+            height: 45px;
+            top: 50%;
+            left: 25%;
+            }
+
+/* 426px footer*/
+        #footer{
+            width: 100%;
+            justify-content: space-between;
+            text-align: center;
+         
+        }
+
+        #footer .footer_box{
+            padding: 50px 0px 20px 0px;
+        }
+
+        #footer .footer_box .footer_p{
+            width: 100%;
+            padding-left:5%;
+            font-size: 0.4em;
+        }
+
+        #footer .footer_box > div:nth-child(1) {
+            width: 100%;
+            padding-top: 1.5%;
+            padding-bottom: 2% ;
+            font-size: 0.3em;
+        }
+
+        #footer .footer_box > div > p {
+            font-size: 0.3em;
+        }
+        #section4 .icon_box_li > h3, p {
+            margin: 11px 5px;}
+        
+        #footer .footer_box > div:nth-child(1){
+            padding-top: 1.5%;
+        }
+        
+        #footer .footer_h4{
+            font-size: 0.9em;
+            padding-left: 2%;
+            padding-bottom: 0.5%;
+        }
+        
+            
+
+        #footer .footer_box > div > ul > li > p{
+            font-size: 0.1em;
+            padding: 5px 5px 5px 5px;
+        }
+        
+        #footer .footer_box .footer_h3{
+            text-align: center;
+            font-size: 0.7em;
+            margin: 2% 2%;
+            padding-left: 7% ;
+        }
+        
+      
+    }
