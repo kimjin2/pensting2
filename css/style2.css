@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.inner{width:100%; max-width: 1070px; margin:0 auto ; }
+#wrap{overflow:hidden; height: 1000px;}
+
+
+/*레이아웃*/
+header{width:100%; max-width:1067px; margin: 0 auto;}
+section{margin: 200px 0;}
+
+
+/*header*/
+
+/*section1*/
+
+#section1 {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#section1 .open{
+    position: relative;
+    display: flex;
+    flex: row;
+    width: 100%;    
+    height: 692px;
+    margin: 10% 10%;
+    padding: 10%, 10%
+}
+
+#section1 .txt{
+    width: 25%;
+    margin-right: 5%;
+}
+#section1 .txt > img{
+    width: 50%;
+}
+#section1 .txt > h3, h2, p{
+    width: 100%;
+    padding: 2% 0 2% 2%;
+    line-height: normal;
+}
+
+#section1 .txt > h3{
+    margin-top: 10%;
+    font-family: 'Gmarket';
+    font-weight: 300;
+    font-size: 1.2em;
+    font-style: normal;
+}
+#section1 .txt > h2{
+    font-family: 'Gmarket';
+    font-weight: 500;
+    font-size: 1.3em;
+    font-style: normal;
+}
+
+#section1 .txt > p{
+    font-family: 'NotoSans_KR';
+    font-weight: 300;
+    font-size: 1em;
+    font-style: normal;
+}
+#section1 .txt > span{
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 0.7em;
+    font-style: normal;
+}
+
+#section1 .img{
+    margin-left: 5%;
+}
+
+#section1 .img img{
+    width: 90%;
+}
+
+#section1 .bt{
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    top:80%;
+    left:30%;
+    border-radius: 30px;
+    background-color: #ffff;
+    border: 1px bold #000;
+    cursor: pointer;
+}
+
