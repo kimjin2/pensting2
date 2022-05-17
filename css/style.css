@@ -1644,6 +1644,10 @@ section{margin: 200px 0;}
             position: absolute;
             background-color: #ffff;
             width: 48%;
+<<<<<<< HEAD
+=======
+         
+>>>>>>> b00e113e6ef5d8095b45dc21ecf90323bae81822
             z-index: 222;
             top: 0;
         }
@@ -1737,7 +1741,11 @@ section{margin: 200px 0;}
         #footer .footer_box .footer_p{
             width: 100%;
             padding-left:5%;
+<<<<<<< HEAD
             font-size: 0.7em;
+=======
+            font-size: 0.8em;
+>>>>>>> b00e113e6ef5d8095b45dc21ecf90323bae81822
         }
 
         #footer .footer_box > div:nth-child(1) {
@@ -1773,7 +1781,11 @@ section{margin: 200px 0;}
             
 
         #footer .footer_box > div > ul > li > p{
+<<<<<<< HEAD
             font-size: 0.3em;
+=======
+            font-size: 0.5em;
+>>>>>>> b00e113e6ef5d8095b45dc21ecf90323bae81822
             padding: 5px 5px 5px 5px;
         }
         
