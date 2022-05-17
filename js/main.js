@@ -2,20 +2,43 @@
  HTML5 Shiv v3.7.0 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 */
 $(function(){
+    var a = 1 
+    $('.btn1').click(function(){
+      // $(this).toggleClass('on');
+      if(a==1) {
+          $(this).addClass('on');   
+          $('.box').fadeIn();
+          a=0; 
+      }else{
+          $(this).removeClass('on');
+          $('.box').fadeOut();
+          a=1; 
+      }
+    })
+
+    $('.nav_m').click(function(){
+      // $(this).toggleClass('on');
+      if(a==1) {
+          $(this).addClass('on');   
+          $('.box').fadeIn();
+          a=0; 
+      }else{
+          $(this).removeClass('on');
+          $('.box').fadeOut();
+          a=1; 
+      }
+    })
+
 
   $(window).scroll(function(){
     /********second-section SECTION**************/
-    if ($(document).scrollTop() >= $('.second-section').position().top - 0) {
+    if ($(document).scrollTop() >= $('.second-section').position().top - 50) {
         $('.second-section').removeClass('show-animation');
         $('.second-section').addClass('show-animation');
     }
     else{
         $('.second-section').removeClass('show-animation');
     }
-})
-    /********second-section SECTION**************/
-
-    $(window).scroll(function(){
       /********second-section SECTION**************/
       if ($(document).scrollTop() >= $('.third-section').position().top - 0) {
           $('.third-section').removeClass('show-animation');
@@ -24,21 +47,16 @@ $(function(){
       else{
           $('.third-section').removeClass('show-animation');
       }
-  })
-
-  $(window).scroll(function(){
+ 
     /********second-section SECTION**************/
-    if ($(document).scrollTop() >= $('.fourth-section').position().top - 100) {
+    if ($(document).scrollTop() >= $('.fourth-section').position().top - 50) {
         $('.fourth-section').removeClass('show-animation');
         $('.fourth-section').addClass('show-animation');
     }
     else{
         $('.fourth-section').removeClass('show-animation');
     }
-})
- /********fourth-sectionSECTION**************/
 
- $(window).scroll(function(){
   /********fix-section SECTION**************/
   if ($(document).scrollTop() >= $('.five-section').position().top - 50) {
       $('.five-section').removeClass('show-animation');
@@ -47,12 +65,9 @@ $(function(){
   else{
       $('.five-section').removeClass('show-animation');
   }
-})
-/********five-sectionSECTION**************/
 
-$(window).scroll(function(){
   /********six-section SECTION**************/
-  if ($(document).scrollTop() >= $('.six-section').position().top - 100) {
+  if ($(document).scrollTop() >= $('.six-section').position().top - 0) {
       $('.six-section').removeClass('show-animation');
       $('.six-section').addClass('show-animation');
   }
