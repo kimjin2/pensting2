@@ -1745,12 +1745,12 @@ section{margin: 200px 0;}
             width: 100%;
             padding-top: 1.5%;
             padding-bottom: 2% ;
-            font-size: 0.3em;
+            font-size: 0.4em;
         }
 
-        #footer .footer_box > div > p {
-            font-size: 0.3em;
-        }
+      #footer .footer_box > div > p {
+        font-size: 4.3em;
+                }
         #section4 .icon_box_li > h3, p {
             margin: 11px 5px;}
         
