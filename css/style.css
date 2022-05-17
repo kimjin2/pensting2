@@ -1170,12 +1170,12 @@ section{margin: 200px 0;}
  /* 1025px footer  */
 
         #footer{
-            width: 100%;
-            justify-content: space-evenly;
+            width: 100%
        
          
         }
         #footer .footer_box{
+                justify-content: space-around;
             padding: 50px 0px 20px 0px
 
         }
