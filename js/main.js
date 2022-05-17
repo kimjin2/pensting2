@@ -58,7 +58,7 @@ $(function(){
     }
 
   /********fix-section SECTION**************/
-  if ($(document).scrollTop() >= $('.five-section').position().top - 100) {
+  if ($(document).scrollTop() >= $('.five-section').position().top - 50) {
       $('.five-section').removeClass('show-animation');
       $('.five-section').addClass('show-animation');
   }
@@ -67,7 +67,7 @@ $(function(){
   }
 
   /********six-section SECTION**************/
-  if ($(document).scrollTop() >= $('.six-section').position().top - 100) {
+  if ($(document).scrollTop() >= $('.six-section').position().top - 0) {
       $('.six-section').removeClass('show-animation');
       $('.six-section').addClass('show-animation');
   }
