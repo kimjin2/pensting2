@@ -178,7 +178,7 @@ section{margin: 200px 0;}
 
         #nav .btn1 > span{
             position: absolute;
-            right: 10%;
+            left: 94%;
             top:25%;
             height:3%;
              width:3%;
@@ -199,7 +199,7 @@ section{margin: 200px 0;}
         }
         #menu .nav_m > span{
             position: absolute;
-            right: 10%;
+            left: 94%;
             top:50%;
             height:3%;
              width:5%;
@@ -923,6 +923,7 @@ section{margin: 200px 0;}
         transition: 0.5s;
         }
 
+      
         #section5 .slick-prev.slick-arrow{
             display: block;
         }
@@ -937,7 +938,16 @@ section{margin: 200px 0;}
     
             /* 흑백의 농도 */
         }
-      
+
+        .slick-slide img {
+            display: block;
+            transition: 0.5s;
+        }
+        .slick-slide.slick-current:hover img {
+            transform: scale(1.2);
+            filter:  opacity(100%) grayscale(30%);
+        }
+        
         
 
 /*section5 slick end*/
@@ -1643,13 +1653,7 @@ section{margin: 200px 0;}
             position: absolute;
             background-color: #ffff;
             width: 48%;
-<<<<<<< HEAD
             height: 80%;
-=======
-
-         
-
->>>>>>> 476020101ae2779e77fb824a881f5b7c6877f7be
             z-index: 222;
             top: 0;
         }
@@ -1678,7 +1682,6 @@ section{margin: 200px 0;}
 
 
         #section2 .sec2_title > h2{
-<<<<<<< HEAD
             font-size: 1.3em;
         }
         #section2 .panel > h2{
@@ -1699,9 +1702,6 @@ section{margin: 200px 0;}
         #section2  h2:nth-child(3){
             top: 50%;
             left: 70%
-=======
-            font-size: 1em;
->>>>>>> 476020101ae2779e77fb824a881f5b7c6877f7be
         }
 
         #section2 .sec2_title > p {
@@ -1764,19 +1764,10 @@ section{margin: 200px 0;}
             padding: 50px 0px 20px 0px;
         }
 
-<<<<<<< HEAD
         #footer .footer_box .footer_p {
             width: 100%;
             padding-left: 5%;
             font-size: 1em;}
-=======
-            
-              #footer .footer_box .footer_p {
-                    width: 100%;
-                    padding-left: 5%;
-                    font-size: 1em;
-                                }
->>>>>>> 476020101ae2779e77fb824a881f5b7c6877f7be
 
         #footer .footer_box > div:nth-child(1) {
             width: 100%;
@@ -1785,13 +1776,8 @@ section{margin: 200px 0;}
             font-size: 0.8em;
         }
 
-<<<<<<< HEAD
         #footer .footer_box > div > p {
             font-size: 1.5em;
-=======
-          #footer .footer_box > div > p {
-            font-size: 4em;
->>>>>>> 476020101ae2779e77fb824a881f5b7c6877f7be
         }
         
         #section4 .icon_box_li > h3, p {
@@ -1810,13 +1796,7 @@ section{margin: 200px 0;}
             
 
         #footer .footer_box > div > ul > li > p{
-<<<<<<< HEAD
             font-size: 0.1em;
-=======
-
-            font-size: 0.3em;
-            font-size: 0.5em;
->>>>>>> 476020101ae2779e77fb824a881f5b7c6877f7be
             padding: 5px 5px 5px 5px;
         }
         
