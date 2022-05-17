@@ -1748,9 +1748,16 @@ section{margin: 200px 0;}
             font-size: 0.3em;
         }
 
-        #footer .footer_box > div > p {
-            font-size: 0.3em;
+            #footer .footer_box > div > p {
+                font-size: 3.3em;
         }
+            
+            #footer .footer_box .footer_p {
+                 width: 100%;
+                 padding-left: 5%;
+                  font-size: 1em;
+                }
+            
         #section4 .icon_box_li > h3, p {
             margin: 11px 5px;}
         
