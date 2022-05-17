@@ -234,7 +234,7 @@ section{margin: 200px 0;}
             position: absolute;
             background-color: #ffff;
             width: 48%;
-            height: 72%;
+            height: 80%;
             z-index: 222;
             top:0
             
@@ -1595,6 +1595,7 @@ section{margin: 200px 0;}
                          
                         }
                         #footer .footer_box{
+                            width: 100%;
                             padding: 50px 0px 20px 0px
                 
                         }
@@ -1732,24 +1733,26 @@ section{margin: 200px 0;}
         }
 
         #footer .footer_box{
+            width: calc((100%*4)/5);
             padding: 50px 0px 20px 0px;
+            box-sizing: border-box;
         }
 
         #footer .footer_box .footer_p{
             width: 100%;
             padding-left:5%;
-            font-size: 0.4em;
+            font-size: 0.6em;
         }
 
         #footer .footer_box > div:nth-child(1) {
             width: 100%;
             padding-top: 1.5%;
             padding-bottom: 2% ;
-            font-size: 0.3em;
+            font-size: 0.6em;
         }
 
         #footer .footer_box > div > p {
-            font-size: 0.3em;
+            font-size: 0.6em;
         }
         #section4 .icon_box_li > h3, p {
             margin: 11px 5px;}
@@ -1759,7 +1762,7 @@ section{margin: 200px 0;}
         }
         
         #footer .footer_h4{
-            font-size: 0.9em;
+            font-size: 1em;
             padding-left: 2%;
             padding-bottom: 0.5%;
         }
@@ -1767,13 +1770,13 @@ section{margin: 200px 0;}
             
 
         #footer .footer_box > div > ul > li > p{
-            font-size: 0.1em;
+            font-size: 0.3em;
             padding: 5px 5px 5px 5px;
         }
         
         #footer .footer_box .footer_h3{
             text-align: center;
-            font-size: 0.7em;
+            font-size: 0.8em;
             margin: 2% 2%;
             padding-left: 7% ;
         }
