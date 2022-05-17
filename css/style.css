@@ -1748,12 +1748,21 @@ section{margin: 200px 0;}
             width: 100%;
             padding-top: 1.5%;
             padding-bottom: 2% ;
+<<<<<<< HEAD
             font-size: 0.6em;
         }
 
         #footer .footer_box > div > p {
             font-size: 0.6em;
         }
+=======
+            font-size: 0.4em;
+        }
+
+      #footer .footer_box > div > p {
+        font-size: 4.3em;
+                }
+>>>>>>> 61d0510fbd287755a1fac3be5c089b1c53564db8
         #section4 .icon_box_li > h3, p {
             margin: 11px 5px;}
         
