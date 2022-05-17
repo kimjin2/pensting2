@@ -1724,7 +1724,7 @@ section{margin: 200px 0;}
             }
 
 /* 426px footer*/
-        #footer{
+       #footer{
             width: 100%;
             justify-content: space-between;
             text-align: center;
@@ -1732,7 +1732,9 @@ section{margin: 200px 0;}
         }
 
         #footer .footer_box{
+            width: calc((100%*4)/5);
             padding: 50px 0px 20px 0px;
+            box-sizing: border-box;
         }
 
         #footer .footer_box .footer_p{
