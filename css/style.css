@@ -1724,7 +1724,7 @@ section{margin: 200px 0;}
             }
 
 /* 426px footer*/
-        #footer{
+          #footer{
             width: 100%;
             justify-content: space-between;
             text-align: center;
@@ -1745,11 +1745,11 @@ section{margin: 200px 0;}
             width: 100%;
             padding-top: 1.5%;
             padding-bottom: 2% ;
-            font-size: 0.3em;
+            font-size: 0.4em;
         }
 
         #footer .footer_box > div > p {
-            font-size: 0.3em;
+            font-size: 0.4em;
         }
         #section4 .icon_box_li > h3, p {
             margin: 11px 5px;}
@@ -1759,7 +1759,7 @@ section{margin: 200px 0;}
         }
         
         #footer .footer_h4{
-            font-size: 0.9em;
+            font-size: 1em;
             padding-left: 2%;
             padding-bottom: 0.5%;
         }
@@ -1773,7 +1773,7 @@ section{margin: 200px 0;}
         
         #footer .footer_box .footer_h3{
             text-align: center;
-            font-size: 0.7em;
+            font-size: 0.8em;
             margin: 2% 2%;
             padding-left: 7% ;
         }
