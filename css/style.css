@@ -1644,10 +1644,9 @@ section{margin: 200px 0;}
             position: absolute;
             background-color: #ffff;
             width: 48%;
-<<<<<<< HEAD
-=======
+
          
->>>>>>> b00e113e6ef5d8095b45dc21ecf90323bae81822
+
             z-index: 222;
             top: 0;
         }
@@ -1676,7 +1675,7 @@ section{margin: 200px 0;}
 
 
         #section2 .sec2_title > h2{
-            font-size: 1.5em;
+            font-size: 1em;
         }
 
         #section2 .sec2_title > p {
@@ -1738,15 +1737,12 @@ section{margin: 200px 0;}
             padding: 50px 0px 20px 0px;
         }
 
-        #footer .footer_box .footer_p{
-            width: 100%;
-            padding-left:5%;
-<<<<<<< HEAD
-            font-size: 0.7em;
-=======
-            font-size: 0.8em;
->>>>>>> b00e113e6ef5d8095b45dc21ecf90323bae81822
-        }
+            
+              #footer .footer_box .footer_p {
+                    width: 100%;
+                    padding-left: 5%;
+                    font-size: 1em;
+                                }
 
         #footer .footer_box > div:nth-child(1) {
             width: 100%;
@@ -1755,8 +1751,8 @@ section{margin: 200px 0;}
             font-size: 0.3em;
         }
 
-            #footer .footer_box > div > p {
-                font-size: 3.3em;
+          #footer .footer_box > div > p {
+            font-size: 4em;
         }
             
             #footer .footer_box .footer_p {
@@ -1781,11 +1777,9 @@ section{margin: 200px 0;}
             
 
         #footer .footer_box > div > ul > li > p{
-<<<<<<< HEAD
+
             font-size: 0.3em;
-=======
             font-size: 0.5em;
->>>>>>> b00e113e6ef5d8095b45dc21ecf90323bae81822
             padding: 5px 5px 5px 5px;
         }
         
