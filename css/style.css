@@ -178,7 +178,7 @@ section{margin: 200px 0;}
 
         #nav .btn1 > span{
             position: absolute;
-            right: 10%;
+            left: 94%;
             top:25%;
             height:3%;
              width:3%;
@@ -199,7 +199,7 @@ section{margin: 200px 0;}
         }
         #menu .nav_m > span{
             position: absolute;
-            right: 10%;
+            left: 94%;
             top:50%;
             height:3%;
              width:5%;
@@ -923,6 +923,7 @@ section{margin: 200px 0;}
         transition: 0.5s;
         }
 
+      
         #section5 .slick-prev.slick-arrow{
             display: block;
         }
@@ -937,7 +938,16 @@ section{margin: 200px 0;}
     
             /* 흑백의 농도 */
         }
-      
+
+        .slick-slide img {
+            display: block;
+            transition: 0.5s;
+        }
+        .slick-slide.slick-current:hover img {
+            transform: scale(1.2);
+            filter:  opacity(100%) grayscale(30%);
+        }
+        
         
 
 /*section5 slick end*/
