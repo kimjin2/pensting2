@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .inner{width:100%; max-width: 1070px; margin:0 auto ; }
-#wrap{overflow-x:hidden; height: 1000px;}
+#wrap{overflow:hidden; height: 100vh;}
 
 
 /*레이아웃*/
@@ -15,7 +15,7 @@ section{margin: 200px 0;}
 
 #section1 {
     width: 100%;
-    margin: auto;
+    padding: 5% 5% 5% 5%;
 }
 
 #section1 .open{
@@ -92,7 +92,31 @@ section{margin: 200px 0;}
     color: #ffff;
 }
 
-@media  all and (max-width:769px) {
 
+@media  all and (max-width:769px) {
+    
+        #section1 {
+            padding:20% 10% 10% 3%;
+        }
+        #section1 .bt {
+            width: 10%;
+            top: 58%;
+            left: 39%;
+
+     
+        }
+        
+}
+
+@media  all and (max-width:426px) {
+    #wrap{
+        
+        font-size: 11px;
+    }
+    #section1 .bt {
+        width: 15%;
+        top: 41%;
+        left: 33%;
+    }
     
 }
