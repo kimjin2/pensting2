@@ -35,6 +35,7 @@ $(function(){
       var menu_link = $(this).children('a');
       $(menu_link).click(function(){
          $(submenu).stop().slideToggle();
+         $(submenu).css('color:blue');
        })
 	});		
     
