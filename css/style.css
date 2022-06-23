@@ -206,40 +206,46 @@ section{margin: 200px 0;}
             background-color:#000;transition:0.5s;
         }
 
+        .box{
+            position:fixed;
+            top:0%;left:0;
+            height:100vh;
+            width:100%;
+            background:#ffff;
+            z-index:888888888889;
+            display: none
+         }  
+        
+         #side{
+            position: relative;
+            top: 30%;
+            left: 45%;
+         }
+        
+         #side > li{
+            padding-top: 2%;
+            font-size: 2em;
+            font-weight: 400 ;
+         }
+        
+        #side > li > a:hover{
+            color: #1956F1;
+        }
+        
+         #side ul{
+            display: none;
+            position: relative;
+            font-size: 1em;
+            padding-top: 0.5%;
+            font-weight: 300;
+         }
+         #side .sub > li > a:hover{
+            color: #1956F1;
+         }
+
    
         
 /*section1*/
-.box{
-    position:fixed;
-    top:0%;left:0;
-    height:100%;
-    width:100%;
-    background:#ffff;
-    z-index:88888888888;
-    display: none
- }  
-
- #side{
-    position: relative;
-    top: 30%;
-    left: 45%;
- }
-
- #side > li{
-    padding-top: 2%;
-    font-size: 2em;
-    font-weight: 400 ;
- }
-
-
-
- #side ul{
-    display: none;
-    position: relative;
-    font-size: 1.2em;
-    padding-top: 0.5%;
-    font-weight: 300;
- }
 
 
 
@@ -338,11 +344,11 @@ section{margin: 200px 0;}
             display: flex;
             flex-direction: row;
             position: absolute;
-            width: 60%;
-            height: 15%;
+            width: 80%;
+            height: 16%;
             flex-wrap: wrap;
             bottom: 0;
-            left: 20%;
+            left: 10%;
             color:#000;
             font-family: 'NotoSans_KR';
             font-style: normal;
@@ -398,21 +404,21 @@ section{margin: 200px 0;}
 
         #section2 .list1{
             width: 60%;
-            padding-top: 2.6%;
+            padding-top: 2.2%;
         }
          #section2 .list1 li{
-        width:33.33%;
-        padding-bottom: 2.5%;
+            width: 33.33%;
+            padding-bottom: 1%;
         }
 
         #section2 .list2{
             width: 40%;
-            padding-top: 3%;
+            padding-top: 2.2%;
         }
 
         #section2 .list2 li{
         width: 50%;
-        padding-bottom: 2.6%;
+        padding-bottom: 1.6%;
         }
   
         #section2 .list_box > p{ 
@@ -1319,13 +1325,17 @@ section{margin: 200px 0;}
                 }
         
         
-                #menu .nav_m span:first-child { top:42% }
-                #menu .nav_m span:nth-child(2) { top: 46%}
+                #menu .nav_m span:first-child {top:42% }
+                #menu .nav_m span:nth-child(2) {top: 46%}
                 #menu .nav_m span:last-child { top:50%}    
 
-                #menu .nav_m.on span:first-child { transform: rotate(50deg);top:40%; }
+                #menu .nav_m.on span:first-child {transform: rotate(50deg);top:40%; }
                 #menu .nav_m.on span:nth-child(2) { width:0 }
                 #menu .nav_m.on span:last-child { transform: rotate(-45deg);top : 40%; }
+
+                #side {
+                    top: 23%;
+                    left: 38%;}
 
 /* 768px header 끝 */
 
@@ -1395,12 +1405,14 @@ section{margin: 200px 0;}
                     padding: 2% 2% 2% 2%;
                 
                 }
-                #section2 .list,
+                #section2 .list1,
                 #section2 .list2
-                {
+                { padding-top: 1.2%;
                     margin-top: 0;
                 }
               
+               
+        
             
                 
 /*768px section2 끝*/
@@ -1672,6 +1684,12 @@ section{margin: 200px 0;}
 
 
     @media all and (max-width:426px){
+
+        #side{
+         top: 29%;
+         left: 34%;
+        }
+
         #section1 .sec1_txt {
             display: block;
             position: absolute;
@@ -1696,6 +1714,10 @@ section{margin: 200px 0;}
         }
 /* 426px section2*/
 
+        #section2 .tabs {
+            top: 83.5%;
+        }
+
         #section2 .sec2_title{
             display: block;
             width: 100%;
@@ -1709,10 +1731,9 @@ section{margin: 200px 0;}
             font-size: 1.3em;
         }
         #section2 .panel > h2{
-            font-size: 1em;
+            font-size: 0.5em;
         }
         #section2 h2:nth-child(1){
-           
             top: 50%;
             left: 1%
         }
@@ -1736,8 +1757,9 @@ section{margin: 200px 0;}
             width: 100%;
         }
         #section2 .tabs {
-            height: 30%;
+                height: 20%;
         }
+
         #section2 .list1,
         #section2 .list2
         {margin-top: 0.2%;
@@ -1748,6 +1770,7 @@ section{margin: 200px 0;}
             top: 9%;
         }
 
+      
 
 
 /* 426px section3*/
