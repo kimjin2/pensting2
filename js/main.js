@@ -40,9 +40,9 @@ $(function(){
     
 
 
-
-  $(window).scroll(function(){
-    /********second-section SECTION**************/
+/*
+  $(window).scroll(function(){  /********second-section SECTION**************
+  
     if ($(document).scrollTop() >= $('.second-section').position().top - 50) {
         $('.second-section').removeClass('show-animation');
         $('.second-section').addClass('show-animation');
@@ -50,7 +50,7 @@ $(function(){
     else{
         $('.second-section').removeClass('show-animation');
     }
-      /********second-section SECTION**************/
+      /********second-section SECTION**************
       if ($(document).scrollTop() >= $('.third-section').position().top - 0) {
           $('.third-section').removeClass('show-animation');
           $('.third-section').addClass('show-animation');
@@ -59,7 +59,7 @@ $(function(){
           $('.third-section').removeClass('show-animation');
       }
  
-    /********second-section SECTION**************/
+    /********second-section SECTION**************
     if ($(document).scrollTop() >= $('.fourth-section').position().top - 50) {
         $('.fourth-section').removeClass('show-animation');
         $('.fourth-section').addClass('show-animation');
@@ -68,7 +68,7 @@ $(function(){
         $('.fourth-section').removeClass('show-animation');
     }
 
-  /********fix-section SECTION**************/
+  /********fix-section SECTION**************
   if ($(document).scrollTop() >= $('.five-section').position().top - 50) {
       $('.five-section').removeClass('show-animation');
       $('.five-section').addClass('show-animation');
@@ -77,7 +77,7 @@ $(function(){
       $('.five-section').removeClass('show-animation');
   }
 
-  /********six-section SECTION**************/
+  /********six-section SECTION**************
   if ($(document).scrollTop() >= $('.six-section').position().top - 0) {
       $('.six-section').removeClass('show-animation');
       $('.six-section').addClass('show-animation');
@@ -85,9 +85,8 @@ $(function(){
   else{
       $('.six-section').removeClass('show-animation');
   }
-});
+})
 /********six-sectionSECTION**************/
-
 
 
  
