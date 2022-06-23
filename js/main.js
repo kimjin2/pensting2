@@ -27,7 +27,18 @@ $(function(){
           $('.box').fadeOut();
           a=1; 
       }
-    })
+
+    });
+
+    $('#side > li').each(function() {
+      var submenu = $(this).find('.sub');
+      var menu_link = $(this).children('a');
+      $(menu_link).click(function(){
+         $(submenu).stop().slideToggle();
+       })
+	});		
+    
+
 
 
   $(window).scroll(function(){
@@ -74,7 +85,7 @@ $(function(){
   else{
       $('.six-section').removeClass('show-animation');
   }
-})
+});
 /********six-sectionSECTION**************/
 
 
@@ -98,9 +109,11 @@ $(function(){
 
       sta = 0
     }// else sta = 0
-
-  })//click <nav>
   
+
+  });//click <nav>
+
+
   $('.nav_m').click(function(){
     if ( sta == 0) {
       $(this).addClass('on');
@@ -114,7 +127,11 @@ $(function(){
       sta = 0
     }// else sta = 0
 
-  })//click <nav_m>
+
+  });//click <nav_m>
+
+ 
+
   
   
   $('.tabSet').each(function(){
@@ -140,7 +157,7 @@ $(function(){
        
         })
       })//each2
-    })//each
+    });//each
       
 
         $(".variable").slick({

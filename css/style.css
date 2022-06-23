@@ -218,6 +218,29 @@ section{margin: 200px 0;}
     z-index:88888888888;
     display: none
  }  
+
+ #side{
+    position: relative;
+    top: 30%;
+    left: 45%;
+ }
+
+ #side > li{
+    padding-top: 2%;
+    font-size: 2em;
+    font-weight: 400 ;
+ }
+
+ #side ul{
+    display: none;
+    position: relative;
+    font-size: 1.2em;
+    padding-top: 0.5%;
+    font-weight: 300;
+ }
+
+
+
         #section1{ margin: 0%;
             position: relative;
         }
