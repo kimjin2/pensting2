@@ -502,7 +502,7 @@ section{margin: 200px 0;}
         #section3 .sec3_tex > h2{
             font-family: 'NotoSans_KR' ;
             font-style: normal;
-            font-size: 2em;
+            font-size: 1.85em;
             font-weight: 300;
             color: #000;
             text-align: center;
@@ -513,11 +513,10 @@ section{margin: 200px 0;}
         position: relative;
         border-radius: 30px;
         border:none;
-      
         width: 20%;
         height: 50px;
         top: 25%;
-        left: 35%;
+        left: 39%;
         cursor: pointer;
         }
         #section3 .sec3_tex > a{
