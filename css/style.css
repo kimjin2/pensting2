@@ -467,6 +467,15 @@ section{margin: 200px 0;}
         transform: translate(0, -20%);
         opacity: 0.9;
      }
+
+     #panel1-4 > ul > li{
+        width: 33.3%;
+        box-sizing: border-box;
+     } 
+     
+     .im{
+        width: 100%
+     }
      
 /*section3*/
 
@@ -883,7 +892,9 @@ section{margin: 200px 0;}
             padding-left:10%;
         }
 
-
+        #footer .footer_box > div > ul > li > a:hover{
+            color:#1956F1
+        }
 /* slick silde*/
 
 /*section1 slide*/
@@ -1853,6 +1864,6 @@ section{margin: 200px 0;}
             margin: 2% 2%;
             padding-left: 7% ;
         }
-        
+
       
     }
