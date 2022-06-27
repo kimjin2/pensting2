@@ -235,7 +235,13 @@ section{margin: 200px 0;}
     font-weight: 400 ;
  }
 
+ #side > li > a:hover{
+    color: #1956F1;
+}
 
+ #side .sub > li > a:hover{
+    color: #1956F1;
+ }
 
  #side ul{
     display: none;
