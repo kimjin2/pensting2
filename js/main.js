@@ -200,6 +200,14 @@ $(function(){
           }); //center slick
 
         
+          $(".lazy1").slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed:4000,
+            fade:true,
+          });
+
           $(".lazy").slick({
             lazyLoad: 'ondemand', // ondemand progressive anticipated
             infinite: true,

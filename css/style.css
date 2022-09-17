@@ -973,10 +973,10 @@ section{margin: 200px 0;}
 
         .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
             position: relative;
-            width: 50%;
+            width: 92%;
             height: 4px;
-            left: 0;
-            top:50%;
+            left: 38px;
+            top: 158px;
             z-index: 888888;
         }
 
